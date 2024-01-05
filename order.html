@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="oder.css">
+  <style>
+    body{
+        font-family: poppins;
+    }
+    *{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+  .nav-ul{
+   display: flex;
+   }
+
+
+  li{
+    list-style-type: none;
+padding: 11px 16px;
+/* transition: 0.3s;
+border-radius: 20px; */
+  }
+
+  /* li:hover{
+    transform: scale(1.1);
+    background-color: lightpink; */
+  
+
+   a{
+    text-decoration: none;
+    font-size: 21px;
+    color: black;
+    transition: 0.3s;
+    /* transition: width 2s; */
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+   li a:hover{
+    background-color: rgb(233, 177, 187);
+    }
+
+
+   .mantra{
+    height: 60px;
+        width:150px
+   }
+
+   .nav{
+    margin-left: -270px;
+margin-top: 10px;
+   }
+
+.search-bar{
+margin-right: 48px;
+margin-top: 11px;
+padding: 9px;
+}
+</style>
+</head>
+<body>
+  <nav class="navbar">
+    <div >
+      <a href="index.html"><img class="mantra" src="https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-logo-m-png-3.png" alt=""></a>
+      </div>
+    <div class="nav">
+        <ul class="nav-ul">
+            <li><a href="mens.html">MEN</a></li>
+            <li><a href="women.html">WOMEN</a></li>
+            <li><a href="home&living.html">HOME & LIVING</a></li>
+            <li><a href="Beauty Products.html">BEAUTY</a></li>
+            <li><a href="order.html">ORDER</a></li>
+            
+        </ul>
+    </div>
+
+    <div >
+        <input class="search-bar" type="text" placeholder="Search.." >
+    </div>
+   
+</nav>
+
+    <div class="row">
+        <div class="img"><img src="https://cdn.create.vista.com/api/media/small/332362312/stock-photo-girl-likes-wasting-money-on-her-credit-card-kissing-it-and-smiling-joyfully-carrying-shopping" alt=""></div>
+        <div class="col">
+          <h1>Order Now</h1>
+          <label for="fname"><i class="uname"></i> <p>Enter your name</p></label>
+          <input type="text" id="fname" name="firstname" placeholder="Enter your name">
+          <label for="email"><i class="uemail"></i> <p>Enter your email</p></label>
+          <input type="text" id="email" name="email" placeholder="Enter your email">
+          <label for="adr"><i class="uadd"></i> <p>Enter your address</p></label>
+          <input type="text" id="adr" name="address" placeholder="Enter your address">
+          <label for="dish"><i class="udish"></i><p>Enter your dish name</p></label>
+          <input type="text" id="city" name="city" placeholder="Enter your Dish">
+
+          <div class="pt">
+            <button class="bt" type="button">Order now</button>
+          </div>
+          <a href="#!" class="small1">Terms of use.</a>
+          
+
+          </div>
+        </div>
+
+
+  
+</body>
+</html>
